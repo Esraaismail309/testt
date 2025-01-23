@@ -29,6 +29,7 @@ function App() {
           index: true,
           element: <Home />
         }, {
+          
           path: "*",
           element: <NotFound />
         }
