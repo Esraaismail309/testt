@@ -26,7 +26,7 @@ function App() {
           path: "/contact",
           element: <Contact />
         }, {
-          path: "/",
+          index: true,
           element: <Home />
         }, {
           path: "*",
